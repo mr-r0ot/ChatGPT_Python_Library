@@ -15,7 +15,7 @@ if not E in G():
 		if C.status_code!=200:A('GiHub Error!');B()
 	except:A('NetWork Error!');B()
 	D=open(E,'w+');D.write(C.text);D.close()
-import ChatGPT
+from ChatGPT import ChatGPT
 ```
 
 
